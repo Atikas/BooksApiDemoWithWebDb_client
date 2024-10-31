@@ -1,5 +1,5 @@
-const uri = "https://localhost:7025/dataHub";
-//const uri = "https://atikas-space-exploration-api-abbng4buggadcxav.northeurope-01.azurewebsites.net/dataHub";
+//const uri = "https://localhost:7025/dataHub";
+const uri = "https://atikas-space-exploration-api-abbng4buggadcxav.northeurope-01.azurewebsites.net/dataHub";
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl(uri)
